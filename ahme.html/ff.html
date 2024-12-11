@@ -1,0 +1,99 @@
+ <html>
+<head> 
+    <meta charset="UTF-8"/>
+    <title> Book store </title>
+    <meta  name="discription" content="This Is Our Book store"  />
+ </head>
+<body>
+<div>  
+        <h1>Book Store</h1>
+        <p>This Is My Book Store, Welcome</p>
+</div>
+<form>
+    <div>
+        <label>Username</label>
+        <input type="text"required placeholder="Username">
+    </div>
+    <br>
+    <div>
+        <label>Subject</label>
+        <input type="text" placeholder="Subject" >
+    </div>
+    <br>
+    <div>
+        <label>Email</label>
+        <input type="email" required rplaceholder=" Write A Valid Email">
+    </div>
+    <br>
+    <div>
+        <label>password</label>
+        <input type="password"required placeholder="Write A Complex Password"
+         minlength="10"
+         maxlength="20">
+    </div>
+    <br>
+    <div>
+        <label>Range</label>
+        <input type="range" name="range" 
+        min="0"
+         max="100" 
+        value="0">
+    </div>
+    <br>
+    <div>
+        <label>color</label>
+        <input type="color" name="color">
+    </div>
+    <br>
+    <div>
+        <label>Number</label>
+        <input type="number" name="number" 
+        min="10"
+         max="100" step="10">
+    </div>
+    <br>
+    <hr>
+    <div>
+        <input id="windows" type="radio" name="os"value="windows" checked>
+        <label for="windows">windows</label>
+    </div>
+    <div>
+        <input id="Lin"  type="radio" name="os"value="Linux">
+        <label for="Lin">Linux</label>
+    </div>
+    <div>
+        <input id="Mac" type="radio" name="os"value="Mac">
+        <label for="Mac">Mac</label>
+    </div>
+    <br>
+<label for="book ">Choose Book:</label>
+    <select name="book" id="book">
+        <option value="1">Book 1</option>
+        <option value="2">Book 2</option>
+        <option value="3">Book 3</option>
+        <option value="4">Book 4</option>
+    </select>
+    <hr>
+    <div>
+        <label>Upload</label>
+        <input type="file" required>
+    </div>
+    <hr>
+    <div>
+        <label>Search</label>
+        <input type="search">
+    </div>
+    <hr>
+    <div>
+        <label>Date</label>
+        <input type="date" required> </div>
+    <hr>
+    <div>
+        <label>time</label>
+        <input type="time" </div>
+    <hr>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Save">
+</form>
+ </body>
+ </html>
